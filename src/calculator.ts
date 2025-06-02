@@ -17,8 +17,7 @@ export class Calculator {
     public divide (numberToDivideBy: number) {
         if (numberToDivideBy == 0) {
             throw new Error("Dat mag dus niet! Geen 0 om mee te delen!");
-        } else {
-            return this._total /= numberToDivideBy;
         }
+        return this._total /= numberToDivideBy;
     }
 }
