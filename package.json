@@ -1,0 +1,19 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Typescript training",
+  "repository": {
+    "type": "git",
+    "url": "typescript_mv"
+  },
+  "license": "ISC",
+  "author": "Vendelouis",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "tsx": "^4.19.4"
+  }
+}
