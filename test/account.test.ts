@@ -52,7 +52,7 @@ describe('Account tests', () => {
 
             account.deposit(100);
           
-            expect(() => account.withdraw(250)).toThrowError('Not allowed to withdraw more than your current balance');
+            expect(() => account.withdraw(50)).toThrowError('Not allowed to withdraw more than your current balance');
         })
     })
 
